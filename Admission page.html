@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Admission Page</title>
+   <style>
+     body{
+          background-image: url("plain image.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+    p{
+        color:red;
+        text-align:center;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Admission Page</h1>
+    <p>Note: This page contains a form that a student needs to 
+        fill up in order to take admission in the college. </p>
+        <form action="xyz.php/">
+            <fieldset>
+                <legend>Personal Information</legend>
+       First Name:
+      <input type="text" name="firstname" maxlength="10">
+      Last Name:
+      <input type="text" name="lastname">
+      <br>
+      <br>
+      Enter Password:
+      <input type="password" name="psw">
+      Enter Userid:
+      <input type="password" name="Userid">
+      <br>
+      <br>
+      Gender:
+      <input type="radio" name="Gender" value="male">Male
+      <input type="radio" name="Gender" value="Female">Female
+      <input type="radio" name="Gender" value="other">other
+    
+    <br>
+    <br>
+    Date of Birth:
+      <input type="date" name="date">
+      <br>
+      <br>
+      Percentage(12th %):
+      <input type="number" name="Percentage">
+      <br>
+      <br>
+    CET Rank:
+      <input type="number" name="CET Rank">
+      <br>
+      <br>
+      Branch Name:
+      <input type="text" name="Branchname" maxlength="50">
+      <br>
+      <br>
+      <br>
+      <input type="reset">
+      <input type="submit">
+    
+            </fieldset>
+    
+        </form>
+
+
+</body>
+</html>

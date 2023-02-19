@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        body{ background-color:rgb(153, 158, 154);}
+        </style>
+</head>
+<body>
+    <h1 title="Assignment 5">Employee Registration Form</h1>
+    <form action="xyz.php/">
+        <fieldset>
+            <legend>Personal Information</legend>
+   First Name:
+  <input type="text" name="firstname" maxlength="10">
+  Last Name:
+  <input type="text" name="lastname">
+  <br>
+  <br>
+  Enter Password:
+  <input type="password" name="psw">
+  Enter Userid:
+  <input type="password" name="Userid">
+  <br>
+  <br>
+  Gender:
+  <input type="radio" name="Gender" value="male">Male
+  <input type="radio" name="Gender" value="Female">Female
+  <input type="radio" name="Gender" value="other">other
+
+<br>
+<br>
+Date of Birth:
+  <input type="date" name="date">
+  <br>
+  <br>
+  Work Experience(In between 1 to 3 Years):
+  <input type="number" name="salary" min="1" max="3">
+
+  Expected salary(In between 400000 to 600000):
+  <input type="number" name="salary" min="400000" max="600000">
+  <br>
+  <br>
+  <br>
+  <input type="reset">
+  <input type="submit">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
